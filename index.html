@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- font awesome -->
+  <script defer src="https://kit.fontawesome.com/bee5d29894.js" crossorigin="anonymous"></script>
+  
+  <title>Shortly URL shortening API Challenge</title>
+
+</head>
+<body>
+  <main>
+    <header class="main__header container">
+      <nav class="main__nav">
+        <div class="links">
+          <img src="images/logo.svg" alt="Shortly Logo" class="logo">
+          <a href="#" class="link__desktop">Features</a>
+          <a href="#" class="link__desktop">Pricing</a>
+          <a href="#" class="link__desktop">Resources</a>
+        </div>
+        <div class="menu__container">
+          <button class="burguer__btn"></button>
+          <button class="login__desktop">Login</button>
+          <button class="sign__desktop">Sign Up</button>
+        </div>
+      </nav>
+      <div class="wrapper">
+        <div class="bg__image">
+          <img src="images/illustration-working.svg" alt="working">
+        </div>
+        <div class="hero__banner">
+          <h2 class="hero__title">
+            More than just shorter links
+          </h2>
+          <p class="hero__description">
+            Build your brand's recognition and get detailed insights on how your
+            links are perfoming.
+          </p>
+          <button class="hero__btn">
+            <a class="starter__link" href="#starter">Get Started</a>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- progress bar -->
+    <div class='bar__container'>
+      <div class='bar' ></div>
+    </div>
+    <!-- mobile menu -->
+    <div class="mobile__menu container">
+      <a class="menu__mobile-link">
+        Feature
+      </a>
+      <a class="menu__mobile-link">
+        Resources
+      </a>
+      <a class="menu__mobile-link">
+        Company
+      </a>
+      <div class="sign__section">
+        <button class="login__mobile">Login</button>
+        <button class="sign__mobile">Sign Up</button>
+      </div>
+    </div>
+    <!-- short links section -->
+    <section class="shorter container">
+      <div class="form__container">
+        <form id="form" action="" class="form">
+          <a name='starter'></a>
+          <div class="input__shorten-area">
+            <input id="link" type="text" placeholder="Shorten a link here..." class="shorter__input">
+            <label class="label__state" for="link">Please add a valid link</label>
+          </div>
+          <button class="shorter__btn">Shorten It!</button>
+        </form>
+      </div>
+      <div class="url__items">
+
+      </div>
+      <h2 class="section__title">Advanced Statistics</h2>
+      <p class="section__description">
+        Track how your links are perfoming across the web with <br class="space" > our advanced Statistics
+        dashbord.
+      </p>
+      <div class="SectioninSection">
+        <div class="section__logo-container">
+          <img src="images/icon-brand-recognition.svg" alt="brand recognition" class="section__icon">
+        </div>
+        <h3 class="SectioninSection__title">
+          Brand Recognition
+        </h3>
+        <p class="SectioninSection__description">
+          Boost your brand recognition with each click. 
+          Generic links don't mean a thing.
+          Branded links help instil confidence in your content
+        </p>
+      </div>
+      <div class="SectioninSection">
+        <div class="section__logo-container">
+          <img src="images/icon-detailed-records.svg" alt="records" class="section__icon">
+        </div>
+        <h3 class="SectioninSection__title">
+          Detailed Records
+        </h3>
+        <p class="SectioninSection__description">
+          Gain isights into who is clicking
+          your links. Knowing when and where
+          people engage with your content helps
+          inform better decisions.
+        </p>
+      </div>
+      <div class="SectioninSection">
+        <div class="section__logo-container">
+          <img src="images/icon-fully-customizable.svg" alt="customizable" class="section__icon">
+        </div>
+        <h3 class="SectioninSection__title">
+          Fully Customizable
+        </h3>
+        <p class="SectioninSection__description">
+          Improve brand awareness and content discoverability
+          through customizable links. Supercharging audience engagement.
+        </p>
+      </div>
+    </section>
+    <div class="small__section container">
+      <h2 class="small__section-description">
+        Boost your links today
+      </h2>
+      <button class="small__btn">
+        <a class="starter__link" href="#starter">Get Started</a>
+      </button>
+    </div>
+    <footer class="main__footer container">
+      <img class="logo__footer" src="images/logo-white.svg" alt="logo">
+      <div class="menu__item-footer">
+        <a class="menu__footer-title">
+          Feature
+        </a>
+        <a href="#" class="menu__footer-link">Link Shortening</a>
+        <a href="#" class="menu__footer-link">Branded Links</a>
+        <a href="#" class="menu__footer-link">Analytics</a>
+      </div>
+
+      <div class="menu__item-footer">
+        <a class="menu__footer-title">
+          Resources
+        </a>
+        <a href="#" class="menu__footer-link">Blog</a>
+        <a href="#" class="menu__footer-link">Developers</a>
+        <a href="#" class="menu__footer-link">Support</a>
+      </div>
+
+      <div class="menu__item-footer">
+        <a class="menu__footer-title">
+          Company
+        </a>
+        <a href="#" class="menu__footer-link">About</a>
+        <a href="#" class="menu__footer-link">Our Team</a>
+        <a href="#" class="menu__footer-link">Careers</a>
+        <a href="#" class="menu__footer-link">Contact</a>
+      </div>
+      <div class="icons__container">
+        <img src="images/icon-facebook.svg" alt="facebook logo">
+        <img src="images/icon-twitter.svg" alt="twitter logo">
+        <img src="images/icon-pinterest.svg" alt="pinterest logo">
+        <img src="images/icon-instagram.svg" alt="instagram logo">
+      </div>
+    </footer>
+  </main>
+  <script src="source/source.js"></script>
+</body>
+</html>
